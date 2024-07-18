@@ -1,0 +1,43 @@
+@media (max-width: 576px) {
+  .tab-btn {
+    border-style: solid;
+    border-width: 0 0 3px 0;
+    border-color: #dfe2e5;
+    width: 59px;
+    background-color: transparent;
+    color: #7b8794;
+    font-weight: bold;
+    padding: 6px;
+    font-size: 12px;
+    font-family: 'Roboto';
+    cursor: pointer;
+  }
+  .active-tab-btn {
+    border-color: #2563eb;
+    color: #2563eb;
+  }
+  .tab-btn:hover {
+    outline: none;
+  }
+}
+@media (min-width: 767px) {
+  .tab-btn {
+    border-style: solid;
+    border-width: 0 0 2px 0;
+    border-color: #dfe2e5;
+    width: 100px;
+    background-color: transparent;
+    color: #7b8794;
+    font-weight: bold;
+    padding: 10px;
+    font-family: 'Roboto';
+    cursor: pointer;
+  }
+  .active-tab-btn {
+    border-color: #2563eb;
+    color: #2563eb;
+  }
+  .tab-btn:hover {
+    outline: none;
+  }
+}

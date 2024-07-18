@@ -1,0 +1,43 @@
+@media (max-width: 576px) {
+  .app-item-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 105px;
+    height: 105px;
+  }
+  .project-item-image {
+    width: 55px;
+  }
+  .app-name {
+    font-family: 'Bree Serif';
+    font-weight: 500;
+    font-size: 5px;
+  }
+}
+@media (min-width: 767px) {
+  .app-item-container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 218px;
+    height: 218px;
+  }
+  .project-item-image {
+    width: 120px;
+  }
+  .app-name {
+    font-family: 'Bree Serif';
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: -4px;
+  }
+}
